@@ -1,0 +1,88 @@
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, select, textarea {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
+button {
+  color: white;
+  background: #000;
+  padding: 4px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: all 0.5s;
+}
+button:hover {
+  border: 1px soldi black;
+  background: transparent;
+  color: black;
+}
+
+.resetBTn {
+  color: white;
+  background: #1F2544;
+  padding: 4px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: all 0.5s;
+  width: 100%;
+  margin-top: 15px;
+}
+.resetBTn:hover {
+  border: 1px soldi #1F2544;
+  background: transparent;
+  color: #1F2544;
+}
+.main__container {
+  margin-top: 100px;
+}
+
+#table #thead tr {
+  display: flex;
+  gap: 100px;
+}
+.card {
+  display: flex;
+  gap: 15%;
+  flex-direction: column;
+}
+.head {
+  display: flex;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.cards {
+  width: 600px;
+  display: flex;
+  gap: 15px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
